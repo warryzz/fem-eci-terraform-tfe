@@ -14,3 +14,9 @@ variable "github_organization_name" {
   type        = string
   description = "github organization/username"
 }
+
+variable "terraform_organization_name" {
+  default     = "phiratio"
+  type        = string
+  description = "terraform cloud organization name"
+}

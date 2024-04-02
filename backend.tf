@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "phiratio"
+    organization = var.terraform_organization_name
 
     workspaces {
       name = "fem-eci-tfe"
